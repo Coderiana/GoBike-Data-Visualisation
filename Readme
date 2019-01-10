@@ -1,0 +1,43 @@
+# GoBike Data Exploration
+
+## Dataset
+
+The data consists of information regarding the bike rental service in San Francisco Bay Area.
+The data is available on the GoBike website: https://www.fordgobike.com/system-data
+Data was collected over 18 months, between June 2017 and November 2018. From every bike ride there is collected information on bike id, ride duration in seconds, start and end station, start and end coordinated, start and end timestamp, member gender, member birth year and user type (subscriber or non-subscribed user). 
+
+
+## Summary of Findings
+
+In the exploration, I found that there was a strong relationship between the
+weekday and time of the day when the bike trip was made. I was surprised
+to discover that the trips made during weekends are not the longest. The
+longest trips take place on Thursdays and Fridays.
+The average user age is 35.47 years old and there are mostly male users in
+this population. Majority of the users are Subscribers. The busiest stations both for stars and end of the journey are located around the San Francisco Caltrain. Most popular weekdays for the bike trips are Tuesday, Wednesday and Thursday. An average trip takes 13 minutes. During the day the first peak is in the morning between 7 and 9 am and the second  busiest time is between 5 and 7 pm. This is probably correlated with using the bike-sharing system as the transportation to work and from work. 
+The popularity of GoBike is raising on the yearly basis, with seasonal variations due to the weather conditions. 
+
+## Feedback 
+
+In the future I would look more into the possibilities of exploring the distance and mapping the stations to visualise the bike routes. 
+
+
+## Key Insights for Presentation
+
+For the presentation, I focus on the correlation between user demographics and
+habits, to better understand who is using the service and how it can be improved.
+
+
+I presented on the various plots the relationships between the key data points.
+User age is divided on 5 main age groups, to better illustrate the differences
+between specific users.  
+
+## Sources
+
+I used the material provided by Udacity as well as my own notes and open source peer-shared materials available on GitHub:
+https://github.com/shuaibiyy/ford-gobike 
+https://github.com/Ritusani/Ford-GoBike-Analysis/blob/master/README.md 
+https://python-graph-gallery.com/
+
+
+
